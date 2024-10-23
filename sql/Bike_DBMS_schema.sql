@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS Bike_DBMS.stores_tbl (
     PRIMARY KEY (store_id)
 );
 
---Customer Table Structure
+-- Customer Table Structure
 
 create table if not exists Bike_DBMS.customers_tbl(
     customer_id int,
@@ -31,7 +31,7 @@ create table if not exists Bike_DBMS.customers_tbl(
 
 );
 
---Staff Table Structure
+-- Staff Table Structure
 
 create table if NOT EXISTS Bike_DBMS.staffs_tbl(
     staff_id int,
@@ -46,7 +46,7 @@ create table if NOT EXISTS Bike_DBMS.staffs_tbl(
 
 );
 
---Stocks Table Structure
+-- Stocks Table Structure
 
 CREATE TABLE IF NOT EXISTS Bike_DBMS.stocks_tbl(
     store_id int,
@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS Bike_DBMS.stocks_tbl(
     quantity numeric not null
 );
 
---Categories Table structure
+-- Categories Table structure
 
 CREATE TABLE if not exists Bike_DBMS.categories_tbl(
     category_id int NOT NULL,
@@ -62,7 +62,7 @@ CREATE TABLE if not exists Bike_DBMS.categories_tbl(
     PRIMARY KEY (category_id)
 );
 
---Orders Table Structure
+-- Orders Table Structure
 
 CREATE table IF NOT EXISTS Bike_DBMS.orders_tbl(
     order_id int not null,
@@ -78,7 +78,7 @@ CREATE table IF NOT EXISTS Bike_DBMS.orders_tbl(
 
 );
 
---Order Items Table Structure
+-- Order Items Table Structure
 
 CREATE TABLE IF NOT EXISTS Bike_DBMS.order_items_tbl(
     order_id INT NOT NULL,
@@ -90,7 +90,7 @@ CREATE TABLE IF NOT EXISTS Bike_DBMS.order_items_tbl(
 
 );
 
---Brands Table Structure
+-- Brands Table Structure
 
 CREATE TABLE if NOT EXISTS Bike_DBMS.brands_tbl(
     brand_id INT NOT NULL,
@@ -99,7 +99,7 @@ CREATE TABLE if NOT EXISTS Bike_DBMS.brands_tbl(
 
 );
 
---Products Table Structure
+-- Products Table Structure
 
 CREATE TABLE IF NOT EXISTS Bike_DBMS.products_tbl(
     product_id INT not null,
